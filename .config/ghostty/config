@@ -1,0 +1,42 @@
+# font
+font-feature = -liga
+font-feature = -calt
+font-feature = -dlig
+font-size = 13
+font-family = meslolgs nerd font
+# font-family = firamono nerd font
+# font-family = commitmono
+# font-family = hack nerd font
+# font-family = iosevka extended
+font-thicken = true
+font-thicken-strength = 0
+
+# increases line height
+adjust-cell-height = 5%
+
+# background blur
+background-opacity = 0.8
+background-blur-radius = 50
+
+# keybinds
+keybind = super+backspace=text:\x15
+keybind = opt+backspace=text:\x17
+
+# window
+window-colorspace = display-p3
+
+window-padding-balance = true
+window-padding-color = background
+window-padding-x = 5
+window-padding-y = 5
+
+window-height = 35
+window-width = 140
+
+theme = nord-custom
+
+macos-titlebar-style = transparent
+macos-titlebar-proxy-icon = hidden
+
+shell-integration-features = ssh-env,no-cursor
+cursor-style = block
