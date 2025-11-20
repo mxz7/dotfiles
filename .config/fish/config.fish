@@ -11,4 +11,13 @@ end
 
 alias ff='fastfetch -c ~/.config/fastfetch/meow.jsonc'
 
+# git aliases
+abbr -a gf 'git fetch'
+abbr -a gm 'git merge'
+abbr -a gp 'git push'
+abbr -a gpl 'git pull'
+abbr -a gs 'git status'
+abbr -a gst 'git stash'
+abbr -a gsw 'git switch'
+
 starship init fish | source
