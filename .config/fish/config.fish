@@ -12,6 +12,7 @@ end
 alias ff='fastfetch -c ~/.config/fastfetch/meow.jsonc'
 
 # git aliases
+abbr -a gb 'git branch'
 abbr -a gc 'git commit'
 abbr -a gf 'git fetch'
 abbr -a gm 'git merge'
