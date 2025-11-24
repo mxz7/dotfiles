@@ -24,3 +24,6 @@ abbr -a gst 'git stash'
 abbr -a gsw 'git switch'
 
 starship init fish | source
+
+# show fastfetch on shell start
+ff
