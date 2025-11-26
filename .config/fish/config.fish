@@ -23,6 +23,9 @@ abbr -a gs 'git status'
 abbr -a gst 'git stash'
 abbr -a gsw 'git switch'
 
+# laravel sail setup
+alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'
+
 starship init fish | source
 
 # show fastfetch on shell start
