@@ -43,5 +43,9 @@
   "tab_size": 2,
   "tabs": {
     "file_icons": true
+  },
+  "code_actions_on_format": {
+    "source.removeUnusedImports": true,
+    "source.organizeImports": true
   }
 }
