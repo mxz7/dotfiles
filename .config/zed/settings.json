@@ -20,8 +20,8 @@
     }
   },
   "ui_font_family": ".SystemUIFont",
-  "theme": "One Dark Pro",
-  "icon_theme": "Symbols Icon Theme",
+  "theme": "Catppuccin Macchiato",
+  "icon_theme": "Base Charmed Icons",
   "base_keymap": "VSCode",
   "ui_font_size": 16,
   "buffer_font_size": 16.0,
