@@ -15,8 +15,8 @@ font-thicken-strength = 0
 adjust-cell-height = 10%
 
 # background blur
-background-opacity = 0.9
-background-blur-radius = 50
+background-opacity = 0
+background-blur = macos-glass-regular
 
 # keybinds
 keybind = super+backspace=text:\x15
@@ -35,7 +35,6 @@ window-width = 140
 
 theme = nord-custom
 
-macos-titlebar-style = transparent
 macos-titlebar-proxy-icon = hidden
 
 shell-integration-features = ssh-env,no-cursor
