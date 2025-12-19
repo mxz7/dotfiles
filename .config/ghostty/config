@@ -33,7 +33,8 @@ window-padding-y = 5
 window-height = 35
 window-width = 140
 
-theme = nord-custom
+# theme = nord-custom
+theme = dracula
 
 macos-titlebar-proxy-icon = hidden
 
