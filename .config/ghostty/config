@@ -15,7 +15,7 @@ font-thicken-strength = 0
 adjust-cell-height = 10%
 
 # background blur
-background-opacity = 0
+background-opacity = 0.2
 background-blur = macos-glass-regular
 
 # keybinds
