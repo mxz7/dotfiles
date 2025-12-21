@@ -2,7 +2,7 @@
 font-feature = -liga
 font-feature = -calt
 font-feature = -dlig
-font-size = 13
+font-size = 14
 # font-family = meslolgs nerd font
 font-family = firamono nerd font
 # font-family = commitmono
@@ -27,7 +27,7 @@ window-colorspace = display-p3
 
 window-padding-balance = true
 window-padding-color = background
-window-padding-x = 4
+window-padding-x = 5
 window-padding-y = 3
 
 window-height = 35
