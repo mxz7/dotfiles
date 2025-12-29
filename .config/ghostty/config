@@ -34,7 +34,8 @@ window-height = 35
 window-width = 140
 
 # theme = nord-custom
-theme = everblush
+# theme = everblush
+theme = idle toes
 
 macos-titlebar-proxy-icon = hidden
 
