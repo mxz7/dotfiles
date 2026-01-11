@@ -33,9 +33,9 @@ window-padding-y = 3
 window-height = 35
 window-width = 140
 
-# theme = nord-custom
+theme = nord
 # theme = everblush
-theme = idle toes
+# theme = idle toes
 
 macos-titlebar-proxy-icon = hidden
 
