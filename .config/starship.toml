@@ -1,3 +1,5 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
 format = """
 $username\
 $hostname\
@@ -15,10 +17,9 @@ style = "bold blue"
 truncation_length = 5
 
 [character]
-success_symbol = "[\\$](purple)"
-error_symbol = "[\\$](red)"
-vimcmd_symbol = "[\\$](green)"
-
+success_symbol = "[❯](purple)"
+error_symbol = "[❯](red)"
+vimcmd_symbol = "[❮](green)"
 
 [git_branch]
 format = "[$branch]($style)"
@@ -46,3 +47,5 @@ style = "yellow"
 [python]
 format = "[$virtualenv]($style) "
 style = "bright-black"
+detect_extensions = []
+detect_files = []
