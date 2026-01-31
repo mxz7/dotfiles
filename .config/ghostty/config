@@ -33,7 +33,7 @@ window-padding-y = 3
 window-height = 35
 window-width = 140
 
-theme = nord
+theme = gruvbox material dark
 # theme = everblush
 # theme = idle toes
 
