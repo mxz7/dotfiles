@@ -11,48 +11,46 @@
   "auto_install_extensions": {
     "HTML": true,
     "Catppuccin": true,
-    "Charmed Icons": true
+    "Charmed Icons": true,
   },
   "show_signature_help_after_edits": true,
   "auto_signature_help": false,
   "autosave": "on_focus_change",
   "prettier": {
-    "allowed": true
+    "allowed": true,
   },
   "git": {
     "inline_blame": {
       "enabled": true,
       "show_commit_summary": true,
-      "delay_ms": 100
-    }
+      "delay_ms": 100,
+    },
   },
   "ui_font_family": ".SystemUIFont",
   "theme": "Gruvbox Dark",
   "icon_theme": "Base Charmed Icons",
   "base_keymap": "VSCode",
   "ui_font_size": 16,
-  "buffer_font_size": 16.0,
-  "buffer_font_family": "Dank Mono",
-  "buffer_line_height": {
-    "custom": 1.9
-  },
+  "buffer_font_size": 15.0,
+  "buffer_font_family": "SF Mono",
+  "buffer_line_height": "comfortable",
   "indent_guides": {
     "enabled": true,
-    "coloring": "indent_aware"
+    "coloring": "indent_aware",
   },
   "terminal": {
     "font_size": 13,
     "font_family": "FiraMono Nerd Font Mono",
     "toolbar": {
-      "breadcrumbs": false
-    }
+      "breadcrumbs": false,
+    },
   },
   "tab_size": 2,
   "tabs": {
-    "file_icons": true
+    "file_icons": true,
   },
   "code_actions_on_format": {
     "source.removeUnusedImports": true,
-    "source.organizeImports": true
-  }
+    "source.organizeImports": true,
+  },
 }
