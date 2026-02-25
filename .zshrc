@@ -20,6 +20,7 @@ source <(fzf --zsh)
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /opt/homebrew/share/zsh-abbr/zsh-abbr.zsh
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /opt/homebrew/share/zsh-completions/zsh-completions.zsh
 
 # enable abbreviations highlighting
 (( ${#ABBR_REGULAR_USER_ABBREVIATIONS} )) && {
