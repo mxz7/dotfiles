@@ -1,7 +1,16 @@
+# config
 export GPG_TTY=$(tty)
 export PATH="$HOME/.local/bin:$PATH"
 export CLICOLOR=1
 
+## history
+export HISTSIZE=5000000
+export SAVEHIST=$HISTSIZE
+
+setopt SHARE_HISTORY
+setopt HIST_IGNORE_ALL_DUPS
+
+# aliases
 alias switch="gcloud config configurations activate"
 alias run_ngrok="ngrok http --url=$NGROK_URL"
 alias la="ls -a"
