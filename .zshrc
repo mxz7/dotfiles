@@ -33,6 +33,9 @@ else
   compinit -C
 fi
 
+# allows case insensitive tab completions
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+
 # enable abbreviations highlighting
 (( ${#ABBR_REGULAR_USER_ABBREVIATIONS} )) && {
   ZSH_HIGHLIGHT_HIGHLIGHTERS+=(regexp)
