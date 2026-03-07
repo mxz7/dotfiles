@@ -38,4 +38,8 @@ fi
   ZSH_HIGHLIGHT_REGEXP+=('\<('${(j:|:)${(Qk)ABBR_GLOBAL_USER_ABBREVIATIONS}}')$' fg=green)
 }
 
+# starship (prompt theme)
 eval "$(starship init zsh)"
+
+# show fastfetch on start
+fastfetch -c ~/.config/fastfetch/meow.jsonc
