@@ -20,6 +20,7 @@ source <(fzf --zsh)
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /opt/homebrew/share/zsh-abbr/zsh-abbr.zsh
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+eval "$(fnm env --use-on-cd --shell zsh)"
 
 FPATH="/opt/homebrew/share/zsh-completions:$FPATH"
 
