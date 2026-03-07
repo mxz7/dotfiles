@@ -21,11 +21,14 @@ source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /opt/homebrew/share/zsh-abbr/zsh-abbr.zsh
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-if type brew &>/dev/null; then
-  FPATH="$(brew --prefix)/share/zsh-completions:$FPATH"
+FPATH="/opt/homebrew/share/zsh-completions:$FPATH"
 
-  autoload -Uz compinit
+# completions
+autoload -Uz compinit
+if [[ -n ${ZDOTDIR}/.zcompdump(#qN.mh+24) ]]; then
   compinit -u
+else
+  compinit -C
 fi
 
 # enable abbreviations highlighting
