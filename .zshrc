@@ -35,6 +35,8 @@ fi
 
 # allows case insensitive tab completions
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+# allows using arrow keys for tab completion
+zstyle ':completion:*' menu select
 
 # enable abbreviations highlighting
 (( ${#ABBR_REGULAR_USER_ABBREVIATIONS} )) && {
