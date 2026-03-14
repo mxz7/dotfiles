@@ -9,6 +9,10 @@ export SAVEHIST=$HISTSIZE
 
 setopt SHARE_HISTORY
 setopt HIST_IGNORE_ALL_DUPS
+setopt INC_APPEND_HISTORY
+setopt HIST_EXPIRE_DUPS_FIRST
+setopt HIST_IGNORE_ALL_DUPS
+setopt EXTENDED_HISTORY
 
 # aliases
 alias switch="gcloud config configurations activate"
