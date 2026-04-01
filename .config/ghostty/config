@@ -31,7 +31,7 @@ window-width = 140
 
 scrollback-limit = 10000000
 
-theme = gruvbox material dark
+theme = nord-custom
 # theme = everblush
 # theme = idle toes
 
