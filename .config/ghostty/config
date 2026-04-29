@@ -11,8 +11,8 @@ font-thicken-strength = 0
 adjust-cell-height = 10%
 
 # background blur
-background-opacity = 0.25
-background-blur = macos-glass-regular
+background-opacity = 0.8
+background-blur = macos-glass-clear
 
 # keybinds
 keybind = super+backspace=text:\x15

@@ -27,7 +27,7 @@
     },
   },
   "ui_font_family": ".SystemUIFont",
-  "theme": "Gruvbox Dark",
+  "theme": "Ayu Dark",
   "icon_theme": "Base Charmed Icons",
   "base_keymap": "VSCode",
   "ui_font_size": 16,
