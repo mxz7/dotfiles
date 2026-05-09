@@ -3,12 +3,8 @@ font-feature = -liga
 font-feature = -calt
 font-feature = -dlig
 font-size = 14
-font-family = sf mono
 font-thicken = true
 font-thicken-strength = 0
-
-# increases line height
-adjust-cell-height = 10%
 
 # background blur
 background-opacity = 0.7
