@@ -7,7 +7,7 @@ font-thicken = true
 font-thicken-strength = 0
 
 # background blur
-background-opacity = 0.7
+background-opacity = 0.8
 background-blur = macos-glass-clear
 
 # keybinds
@@ -27,7 +27,8 @@ window-width = 140
 
 scrollback-limit = 10000000
 
-theme = nord-custom
+theme = catppuccin mocha
+background = #0a0917
 # theme = everblush
 # theme = idle toes
 
