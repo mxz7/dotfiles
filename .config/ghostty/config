@@ -5,6 +5,9 @@ font-feature = -dlig
 font-size = 14
 font-thicken = true
 font-thicken-strength = 0
+font-family = sf mono
+
+adjust-cell-height = 13%
 
 # background blur
 background-opacity = 0.8
