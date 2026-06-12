@@ -51,6 +51,10 @@ zstyle ':completion:*' menu select
   ZSH_HIGHLIGHT_REGEXP+=('\<('${(j:|:)${(Qk)ABBR_GLOBAL_USER_ABBREVIATIONS}}')$' fg=green)
 }
 
+if (( $+commands[zoxide] )); then
+  eval "$(zoxide init --hook prompt --cmd cd zsh)"
+fi
+
 # starship (prompt theme)
 eval "$(starship init zsh)"
 
