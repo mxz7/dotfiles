@@ -53,6 +53,7 @@ zstyle ':completion:*' menu select
 
 if (( $+commands[zoxide] )); then
   eval "$(zoxide init --hook prompt --cmd cd zsh)"
+  export _ZO_EXCLUDE_DIRS="/node_modules:/.git:/dist:/build"
 fi
 
 # starship (prompt theme)
