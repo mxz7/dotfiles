@@ -27,10 +27,7 @@ window-width = 140
 
 scrollback-limit = 10000000
 
-theme = catppuccin mocha
-background = #0a0917
-# theme = everblush
-# theme = idle toes
+theme = kanagawa wave
 
 macos-titlebar-proxy-icon = hidden
 
