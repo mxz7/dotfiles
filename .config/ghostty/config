@@ -28,6 +28,7 @@ window-width = 140
 scrollback-limit = 10000000
 
 theme = kanagawa wave
+background = #16161D
 
 macos-titlebar-proxy-icon = hidden
 
