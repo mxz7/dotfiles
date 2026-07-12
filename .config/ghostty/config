@@ -25,7 +25,7 @@ window-padding-y = 3
 window-height = 35
 window-width = 140
 
-scrollback-limit = 10000000
+scrollback-limit = 256000000
 
 theme = kanagawa wave
 background = #16161D
