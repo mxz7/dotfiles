@@ -22,7 +22,7 @@ alias psqlnypsi="psql-18 '$NYPSI_POSTGRES'"
 
 # plugins
 source <(fzf --zsh)
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+eval "$("$(brew --prefix)/bin/zsh-patina" activate)"
 source /opt/homebrew/share/zsh-abbr/zsh-abbr.zsh
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source "/opt/homebrew/opt/fzf-tab/share/fzf-tab/fzf-tab.zsh"
@@ -43,13 +43,6 @@ fi
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 # allows using arrow keys for tab completion
 zstyle ':completion:*' menu select
-
-# enable abbreviations highlighting
-(( ${#ABBR_REGULAR_USER_ABBREVIATIONS} )) && {
-  ZSH_HIGHLIGHT_HIGHLIGHTERS+=(regexp)
-  ZSH_HIGHLIGHT_REGEXP+=('^[[:blank:][:space:]]*('${(j:|:)${(Qk)ABBR_REGULAR_USER_ABBREVIATIONS}}')$' fg=green)
-  ZSH_HIGHLIGHT_REGEXP+=('\<('${(j:|:)${(Qk)ABBR_GLOBAL_USER_ABBREVIATIONS}}')$' fg=green)
-}
 
 if (( $+commands[zoxide] )); then
   eval "$(zoxide init --hook prompt --cmd cd zsh)"

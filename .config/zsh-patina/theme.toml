@@ -1,0 +1,5 @@
+"variable.function" = "green"
+"dynamic.callable" = "green"
+
+[metadata]
+extends = "simple"
