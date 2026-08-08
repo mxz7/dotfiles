@@ -1,0 +1,38 @@
+#!/usr/bin/env zsh
+
+# zsh-abbr-highlight
+#
+# Highlights the zsh-abbr abbreviation (if any) that would expand at the current
+# cursor position. Source this file AFTER (!) zsh-abbr and, if used, zsh-patina
+# (or any other syntax highlighter).
+#
+# Copyright (c) 2026 Michel Krämer
+#
+# Released under the MIT license. See zsh-patina's LICENSE file:
+# https://github.com/michel-kraemer/zsh-patina/blob/main/LICENSE
+
+# Highlight style applied to the matched abbreviation. Any
+# zle_highlight-compatible specification is accepted, e.g. 'fg=cyan,bold',
+# 'standout', 'fg=magenta,underline'.
+typeset -g ABBR_HIGHLIGHT_STYLE=${ABBR_HIGHLIGHT_STYLE:-'fg=green'}
+
+_zsh_abbr_highlight() {
+    emulate -LR zsh
+
+    local -A reply
+    local start end
+
+    region_highlight=( "${region_highlight[@]:#*memo=zsh_abbr_highlight}" )
+
+    abbr-expand-line "$LBUFFER" "$RBUFFER"
+
+    if [[ -n $reply[expansion] ]]; then
+        start=$(( ${#reply[linput]%%$reply[abbreviation]} ))
+        end=$(( $start + ${#reply[abbreviation]} ))
+        region_highlight+=("$start $end $ABBR_HIGHLIGHT_STYLE memo=zsh_abbr_highlight")
+    fi
+}
+
+zle -N _zsh_abbr_highlight
+autoload -Uz add-zle-hook-widget
+add-zle-hook-widget line-pre-redraw _zsh_abbr_highlight

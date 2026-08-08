@@ -29,6 +29,8 @@ source "/opt/homebrew/opt/fzf-tab/share/fzf-tab/fzf-tab.zsh"
 source /opt/homebrew/share/zsh-autopair/autopair.zsh
 eval "$(fnm env --use-on-cd --shell zsh)"
 
+source ~/.config/zsh-abbr/.zsh-abbr-highlight
+
 FPATH="/opt/homebrew/share/zsh-completions:$FPATH"
 
 # completions
