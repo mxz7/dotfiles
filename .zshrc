@@ -18,7 +18,6 @@ setopt EXTENDED_HISTORY
 alias switch="gcloud config configurations activate"
 alias run_ngrok="ngrok http --url=$NGROK_URL"
 alias la="ls -a"
-alias psqlnypsi="psql-18 '$NYPSI_POSTGRES'"
 
 # plugins
 source <(fzf --zsh)
