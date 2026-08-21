@@ -1,5 +1,7 @@
 # font
 font-feature = zero
+font-feature = cv02
+font-feature = cv61
 font-feature = -liga
 font-feature = -calt
 font-feature = -dlig
