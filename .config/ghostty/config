@@ -33,7 +33,7 @@ window-width = 140
 
 scrollback-limit = 256000000
 
-theme = kanso zen
+theme = catppuccin mocha
 
 macos-titlebar-proxy-icon = hidden
 
