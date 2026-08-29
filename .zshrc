@@ -18,6 +18,29 @@ setopt EXTENDED_HISTORY
 alias switch="gcloud config configurations activate"
 alias run_ngrok="ngrok http --url=$NGROK_URL"
 alias la="ls -a"
+alias exifstrip='exiftool \
+  "-gps*=" \
+  -Make= \
+  -Model= \
+  -LensMake= \
+  -LensModel= \
+  "-*SerialNumber*=" \
+  -OwnerName= \
+  -HostComputer= \
+  -MakerNotes:All= \
+  -IPTC:City= \
+  -IPTC:Sub-location= \
+  -IPTC:Province-State= \
+  -IPTC:Country-PrimaryLocationCode= \
+  -IPTC:Country-PrimaryLocationName= \
+  -XMP:City= \
+  -XMP:State= \
+  -XMP:Country= \
+  -XMP:CountryCode= \
+  -XMP:Location= \
+  "-XMP:LocationCreated*=" \
+  "-XMP:LocationShown*=" \
+  -Keys:LocationName='
 
 # plugins
 source <(fzf --zsh)
