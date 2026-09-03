@@ -41,6 +41,23 @@ alias exifstrip='exiftool \
   "-XMP:LocationCreated*=" \
   "-XMP:LocationShown*=" \
   -Keys:LocationName='
+alias ffmpeg-clean-drone='ffmpeg \
+  -loglevel warning \
+  -rtsp_transport tcp \
+  -fflags +genpts+discardcorrupt \
+  -i rtsp://127.0.0.1:8554/drone \
+  -map 0:v:0 \
+  -an \
+  -vf "scale=1920:1080,fps=30,setpts=N/(30*TB)" \
+  -c:v h264_videotoolbox \
+  -realtime 1 \
+  -bf 0 \
+  -g 30 \
+  -b:v 12M \
+  -pix_fmt yuv420p \
+  -rtsp_transport tcp \
+  -f rtsp \
+  rtsp://127.0.0.1:8554/drone-clean'
 
 # plugins
 source <(fzf --zsh)
