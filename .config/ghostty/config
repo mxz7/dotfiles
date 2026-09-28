@@ -1,16 +1,11 @@
 # font
-font-feature = zero
-font-feature = cv02
-font-feature = cv61
-font-feature = -liga
-font-feature = -calt
-font-feature = -dlig
 font-size = 14
 font-thicken = true
 font-thicken-strength = 0
 
-# font-family = berkeley mono trial
-font-family = maple mono
+font-family = hack
+
+adjust-cell-height = 3%
 
 # background blur
 background-opacity = 0.9
