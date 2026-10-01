@@ -3,7 +3,7 @@ font-size = 14
 font-thicken = true
 font-thicken-strength = 0
 
-font-family = hack
+font-family = firamono nerd font mono
 
 adjust-cell-height = 3%
 
