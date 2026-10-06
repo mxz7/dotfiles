@@ -28,7 +28,9 @@ window-width = 140
 
 scrollback-limit = 256000000
 
-theme = catppuccin mocha
+theme = ayu mirage
+cursor-color = #cccac2
+cursor-text = #1f2430
 
 macos-titlebar-proxy-icon = hidden
 
