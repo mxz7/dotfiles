@@ -3,9 +3,9 @@ font-size = 14
 font-thicken = true
 font-thicken-strength = 0
 
-font-family = firamono nerd font mono
+font-family = martian mono
 
-adjust-cell-height = 3%
+adjust-cell-height = 5%
 
 # background blur
 background-opacity = 0.9
