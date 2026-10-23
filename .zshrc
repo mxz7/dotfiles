@@ -66,7 +66,6 @@ source /opt/homebrew/share/zsh-abbr/zsh-abbr.zsh
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source "/opt/homebrew/opt/fzf-tab/share/fzf-tab/fzf-tab.zsh"
 source /opt/homebrew/share/zsh-autopair/autopair.zsh
-eval "$(fnm env --use-on-cd --shell zsh)"
 
 source ~/.config/zsh-abbr/.zsh-abbr-highlight
 
