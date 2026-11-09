@@ -3,7 +3,8 @@ font-size = 14
 font-thicken = true
 font-thicken-strength = 0
 
-font-family = martian mono
+font-family = paper mono
+font-feature = zero
 
 adjust-cell-height = 5%
 
