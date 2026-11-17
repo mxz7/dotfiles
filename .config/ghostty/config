@@ -29,10 +29,8 @@ window-width = 140
 
 scrollback-limit = 256000000
 
-theme = ayu mirage
+theme = github dark default
 bold-color = bright
-cursor-color = #cccac2
-cursor-text = #1f2430
 
 macos-titlebar-proxy-icon = hidden
 
